@@ -6,7 +6,7 @@ import icon from "../images/emoji.svg";
 import EmojiPicker from "emoji-picker-react";
 import Messages from "./Messages";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://116c287e-9c96-4a83-a9e0-aa865a5766b1-00-yfwn09aa27z5.kirk.replit.dev/");
 
 const Chat = () => {
 	const { search } = useLocation();
